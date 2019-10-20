@@ -1,3 +1,9 @@
+(ocamllex
+  (modules lexer))
+
+(menhir
+  (modules parser))
+
 (library
   (name lib)
   (flags (-w -40 -w +26))
